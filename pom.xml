@@ -61,6 +61,7 @@
             <artifactId>slf4j-simple</artifactId>
             <version>2.0.0-alpha7</version>
         </dependency-->
+
         <!-- json dependency for localhost running -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -93,9 +94,15 @@
         </dependency>
         <!-- used bundle to enable openapi swagger documentation -->
         <dependency>
-                <groupId>io.javalin</groupId>
-                <artifactId>javalin-bundle</artifactId>
-                <version>4.6.1</version>
+            <groupId>io.javalin</groupId>
+            <artifactId>javalin-bundle</artifactId>
+            <version>4.6.1</version>
+        </dependency>
+        <!-- json dependency for serialising joda date time -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-joda</artifactId>
+            <version>2.13.3</version>
         </dependency>
     </dependencies>
 
