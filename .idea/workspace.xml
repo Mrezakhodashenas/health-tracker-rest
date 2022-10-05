@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f273ce8-0ff5-4a89-9da5-aa88d9547c5c" name="Changes" comment="Lab07 - Before starting exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/utils/JSONUtilities.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ie/setu/controllers/HealthTrackerControllerTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ie/setu/helpers/ServerContainer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/DbConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/DbConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/JavalinConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/JavalinConfig.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/controllers/HealthTrackerController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/controllers/HealthTrackerController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/domain/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/domain/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/domain/repository/UserDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/domain/repository/UserDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/domain/repository/ActivityDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/domain/repository/ActivityDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/utils/JSONUtilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/utils/JSONUtilities.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ie/setu/controllers/HealthTrackerControllerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ie/setu/controllers/HealthTrackerControllerTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/ie/setu/helpers/Fixtures.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ie/setu/helpers/Fixtures.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,27 +57,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ie.setu in healthtrackerrest">
-    <configuration name="ActivityDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="healthtrackerrest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.setu.repository.*" />
-          <option name="ENABLED" value="false" />
-        </pattern>
-        <pattern>
-          <option name="PATTERN" value="ie.setu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.setu.repository" />
-      <option name="MAIN_CLASS_NAME" value="ie.setu.repository.ActivityDAOTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthTrackerControllerTest$UpdateUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HealthTrackerControllerTest$ReadActivities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="healthtrackerrest" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +66,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.setu.controllers.HealthTrackerControllerTest" />
-      <option name="MAIN_CLASS_NAME" value="ie.setu.controllers.HealthTrackerControllerTest$UpdateUsers" />
+      <option name="MAIN_CLASS_NAME" value="ie.setu.controllers.HealthTrackerControllerTest$ReadActivities" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthTrackerControllerTest$UpdateActivities.updating an activity by activity id when it exists, returns 204 response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrackerrest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.setu.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.setu.controllers.HealthTrackerControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="ie.setu.controllers.HealthTrackerControllerTest$UpdateActivities" />
+      <option name="METHOD_NAME" value="updating an activity by activity id when it exists, returns 204 response" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,22 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="healthtrackerrest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.setu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.setu.repository" />
-      <option name="MAIN_CLASS_NAME" value="ie.setu.repository.UserDAOTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ie.setu in healthtrackerrest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="healthtrackerrest" />
       <extension name="coverage">
@@ -134,6 +113,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ie.setu" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ie.setu.AppKt" />
+      <module name="healthtrackerrest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ie.setu in healthtrackerrest" />
+        <item itemvalue="Kotlin.AppKt" />
+        <item itemvalue="JUnit.HealthTrackerControllerTest$UpdateActivities.updating an activity by activity id when it exists, returns 204 response" />
+        <item itemvalue="JUnit.HealthTrackerControllerTest$ReadActivities" />
         <item itemvalue="JUnit.HealthTrackerControllerTest" />
-        <item itemvalue="JUnit.HealthTrackerControllerTest$UpdateUsers" />
-        <item itemvalue="JUnit.UserDAOTest" />
-        <item itemvalue="JUnit.ActivityDAOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655485243563</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lab07 - Before starting exercises">
+      <created>1664449684620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664449684620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

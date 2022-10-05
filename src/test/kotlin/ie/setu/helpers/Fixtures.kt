@@ -1,5 +1,6 @@
 package ie.setu.helpers
 
+
 import ie.setu.domain.Activity
 import ie.setu.domain.User
 import ie.setu.domain.db.Activities
@@ -9,11 +10,17 @@ import ie.setu.domain.repository.UserDAO
 import org.jetbrains.exposed.sql.SchemaUtils
 import org.joda.time.DateTime
 
+
 val nonExistingEmail = "112233445566778testUser@xxxxx.xx"
 val validName = "Test User 1"
 val validEmail = "testuser1@test.com"
 val updatedName = "Updated Name"
 val updatedEmail = "Updated Email"
+
+val updatedDescription = "Updated Description"
+val updatedDuration = 30.0
+val updatedCalories = 945
+val updatedStarted = DateTime.parse("2020-06-11T05:59:27.258Z")
 
 val users = arrayListOf<User>(
     User(name = "Alice Wonderland", email = "alice@wonderland.com", id = 1),
@@ -31,16 +38,17 @@ val activities = arrayListOf<Activity>(
 fun populateUserTable(): UserDAO {
     SchemaUtils.create(Users)
     val userDAO = UserDAO()
-    userDAO.save(users.get(0))
-    userDAO.save(users.get(1))
-    userDAO.save(users.get(2))
+    userDAO.save(users[0])
+    userDAO.save(users[1])
+    userDAO.save(users[2])
     return userDAO
 }
+
 fun populateActivityTable(): ActivityDAO {
     SchemaUtils.create(Activities)
     val activityDAO = ActivityDAO()
-    activityDAO.save(activities.get(0))
-    activityDAO.save(activities.get(1))
-    activityDAO.save(activities.get(2))
+    activityDAO.save(activities[0])
+    activityDAO.save(activities[1])
+    activityDAO.save(activities[2])
     return activityDAO
 }
