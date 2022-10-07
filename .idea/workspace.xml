@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f273ce8-0ff5-4a89-9da5-aa88d9547c5c" name="Changes" comment="Lab07 - After exercises (with activity integration tests)">
+    <list default="true" id="9f273ce8-0ff5-4a89-9da5-aa88d9547c5c" name="Changes" comment="Change to ElephantSQL and Railway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/DbConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/DbConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/JavalinConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ie/setu/config/JavalinConfig.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +49,19 @@
       <recent name="ie.setu.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.delpoy-heroku">
-    <configuration name="HealthTrackerControllerTest$ReadActivities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ie.setu in healthtrackerrest">
+    <configuration name="HealthTrackerControllerTest$ReadActivities.get all activities by user id when no user exists returns 404 response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="healthtrackerrest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ie.setu.controllers.*" />
+          <option name="PATTERN" value="ie.setu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ie.setu.controllers.HealthTrackerControllerTest" />
       <option name="MAIN_CLASS_NAME" value="ie.setu.controllers.HealthTrackerControllerTest$ReadActivities" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="get all activities by user id when no user exists returns 404 response" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ie.setu in healthtrackerrest" />
+        <item itemvalue="JUnit.HealthTrackerControllerTest" />
+        <item itemvalue="JUnit.HealthTrackerControllerTest$ReadActivities.get all activities by user id when no user exists returns 404 response" />
         <item itemvalue="Kotlin.AppKt" />
         <item itemvalue="JUnit.HealthTrackerControllerTest$UpdateActivities.updating an activity by activity id when it exists, returns 204 response" />
-        <item itemvalue="JUnit.HealthTrackerControllerTest$ReadActivities" />
-        <item itemvalue="JUnit.HealthTrackerControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664962099114</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Change to ElephantSQL and Railway">
+      <created>1665142111187</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665142111187</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +271,8 @@
     <MESSAGE value="Lab06 - After finishing exercise 1 and 2" />
     <MESSAGE value="Lab07 - Before starting exercises" />
     <MESSAGE value="Lab07 - After exercises (with activity integration tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab07 - After exercises (with activity integration tests)" />
+    <MESSAGE value="Change to ElephantSQL and Railway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to ElephantSQL and Railway" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/healthtrackerrest$UserDAOTest.ic" NAME="UserDAOTest Coverage Results" MODIFIED="1655483813843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
