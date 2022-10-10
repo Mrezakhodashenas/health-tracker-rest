@@ -24,7 +24,7 @@ class JavalinConfig {
             it.enableWebjars()
         }.apply {
              exception(Exception::class.java) { e, _ -> e.printStackTrace() }
-             error(404) { ctx -> ctx.json("404 - Not Found") }
+             error(404) { ctx -> ctx.json("404 : Not Found") }
         }.start(getRemoteAssignedPort())
 
         registerRoutes(app)
