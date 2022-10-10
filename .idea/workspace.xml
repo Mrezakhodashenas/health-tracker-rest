@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f273ce8-0ff5-4a89-9da5-aa88d9547c5c" name="Changes" comment="Lab08 Before Exercises">
+    <list default="true" id="9f273ce8-0ff5-4a89-9da5-aa88d9547c5c" name="Changes" comment="Lab09 - Solutuion Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/vue/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vue/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/vue/views/user-overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vue/views/user-overview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/vue/views/user-profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vue/views/user-profile.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,15 @@
       <recent name="ie.setu.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AppKt">
+  <component name="RunManager" selected="JUnit.All in healthtrackerrest">
+    <configuration name="All in healthtrackerrest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="healthtrackerrest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HealthTrackerControllerTest$ReadActivities.get all activities by user id when no user exists returns 404 response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="healthtrackerrest" />
       <extension name="coverage">
@@ -66,22 +71,6 @@
       <option name="PACKAGE_NAME" value="ie.setu.controllers.HealthTrackerControllerTest" />
       <option name="MAIN_CLASS_NAME" value="ie.setu.controllers.HealthTrackerControllerTest$ReadActivities" />
       <option name="METHOD_NAME" value="get all activities by user id when no user exists returns 404 response" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HealthTrackerControllerTest$UpdateActivities.updating an activity by activity id when it exists, returns 204 response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="healthtrackerrest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ie.setu.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ie.setu.controllers.HealthTrackerControllerTest" />
-      <option name="MAIN_CLASS_NAME" value="ie.setu.controllers.HealthTrackerControllerTest$UpdateActivities" />
-      <option name="METHOD_NAME" value="updating an activity by activity id when it exists, returns 204 response" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in healthtrackerrest" />
         <item itemvalue="Kotlin.AppKt" />
         <item itemvalue="JUnit.ie.setu in healthtrackerrest" />
         <item itemvalue="JUnit.HealthTrackerControllerTest" />
         <item itemvalue="JUnit.HealthTrackerControllerTest$ReadActivities.get all activities by user id when no user exists returns 404 response" />
-        <item itemvalue="JUnit.HealthTrackerControllerTest$UpdateActivities.updating an activity by activity id when it exists, returns 204 response" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +160,7 @@
       <workItem from="1655379461230" duration="2659000" />
       <workItem from="1655471036239" duration="13288000" />
       <workItem from="1665156927541" duration="2246000" />
-      <workItem from="1665393815220" duration="4311000" />
+      <workItem from="1665393815220" duration="5173000" />
     </task>
     <task id="LOCAL-00001" summary="first lab of healthtracker rest (before exercises)">
       <created>1655212794272</created>
@@ -264,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665326141654</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lab09 - Solutuion Code">
+      <created>1665409096105</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665409096105</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +291,8 @@
     <MESSAGE value="Change to ElephantSQL and Railway" />
     <MESSAGE value="Test the DB created using pgAdmin SQL Scripts" />
     <MESSAGE value="Lab08 Before Exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab08 Before Exercises" />
+    <MESSAGE value="Lab09 - Solutuion Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab09 - Solutuion Code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/healthtrackerrest$ActivityDAOTest.ic" NAME="ActivityDAOTest Coverage Results" MODIFIED="1655483787936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
