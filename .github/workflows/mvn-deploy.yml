@@ -15,8 +15,15 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
           cache: 'maven'
+          
       - name: Maven Package
         run: mvn -B clean package -DskipTests
+        
+      - name: Jar with Dependencies
+        uses: actions/upload-artifact@v3
+        with:
+          name: Jar with Dependencies
+          path: target/
   
   test:
     name: Maven Tests
@@ -32,17 +39,6 @@ jobs:
           cache: 'maven'
       - name: Maven Verify
         run: mvn -B clean verify
-        
-  jar: 
-    name: Archive Jar with Dependencies
-    needs: test
-    runs-on: ubuntu-latest
-    
-    steps:
-       - uses: actions/upload-artifact@v2
-         with:
-           name: Jar with Dependencies
-           path: target
         
   deploy:
     name: Railway Deploy
