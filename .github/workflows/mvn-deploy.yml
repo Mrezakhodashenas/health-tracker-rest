@@ -33,6 +33,17 @@ jobs:
       - name: Maven Verify
         run: mvn -B clean verify
         
+  jar: 
+    name: Archive Jar with Dependencies
+    needs: test
+    runs-on: ubuntu-latest
+    
+    steps:
+       - uses: actions/upload-artifact@v2
+         with:
+           name: Jar with Dependencies
+           path: target
+        
   deploy:
     name: Railway Deploy
     needs: test
