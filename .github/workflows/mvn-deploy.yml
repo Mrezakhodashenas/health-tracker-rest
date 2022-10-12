@@ -19,11 +19,11 @@ jobs:
       - name: Maven Package
         run: mvn -B clean package -DskipTests
         
-      # Create Artifact - Jar Builds 
-      - name: Jar Builds
+      # Create Artifact - Project Jars
+      - name: Project Jars
         uses: actions/upload-artifact@v3
         with:
-          name: Jar with Builds
+          name: Project Jars
           path: target/*.jar
   
   test:
