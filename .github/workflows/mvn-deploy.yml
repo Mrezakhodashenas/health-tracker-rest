@@ -41,7 +41,7 @@ jobs:
 
       # Builds a zip file with the KDoc generated website in it 
       - name: Archive KDoc Documentation
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: KDoc Documentation Site
           path: target/dokka  
